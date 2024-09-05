@@ -220,7 +220,8 @@
 .lb-thread-comments,
 .lb-composer,
 .lb-comment-reaction {
-  background-color: #0f1c34;
+  /* background-color: #0f1c34; */
+  background: #0f1c34 !important;
   color: #fff;
 }
 
@@ -266,7 +267,7 @@
 .lb-dropdown-item,
 .lb-dropdown-item-icon,
 .lb-composer-editor {
-  color: #fff;
+  color: #fff !important;
 }
 
 .lb-composer-action {
@@ -279,6 +280,8 @@
   padding: 12px;
   border-radius: 4px;
   font-size: 14px;
+
+  color: white !important;
 }
 
 .lb-comment-date,
@@ -302,7 +305,7 @@
 }
 
 .lb-composer-editor :where([data-placeholder]) {
-  color: #b4c6ee;
+  color: #b4c6ee !important;
   font-size: 14px;
 }
 
@@ -312,4 +315,8 @@
 
 .lb-elevation {
   background: #0f1c34;
+}
+
+.lb-comment-body > p >span{
+  color: white !important;
 }

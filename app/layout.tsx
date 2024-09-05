@@ -18,7 +18,7 @@ const fontSans = FontSans({
   variable: "--font-sans",
 })
 export const metadata:Metadata={
-  title:'LiveDocs',
+  title:'FlashNote',
   description:'Your go-to collaborative editor'
 }
 export default function RootLayout({ children }: {children:React.ReactNode}) {
